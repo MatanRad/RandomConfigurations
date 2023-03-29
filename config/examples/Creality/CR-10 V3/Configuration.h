@@ -21,14 +21,12 @@
  */
 #pragma once
 
-#define CONFIG_EXAMPLES_DIR "Creality/CR-10 V3"
-
 /**
  * Creality CD-10 V3 options
  */
 
 // Is the BLTouch option installed?
-//#define CR10V3_BLTOUCH
+#define CR10V3_BLTOUCH
 
 /**
  * Configuration.h
@@ -69,7 +67,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "Aaron Just, CR-10 V3)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "Matan Radomski, CR-10 V3)" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -122,7 +120,7 @@
  */
 #define BAUDRATE 250000
 
-//#define BAUD_RATE_GCODE     // Enable G-code M575 to set the baud rate
+#define BAUD_RATE_GCODE     // Enable G-code M575 to set the baud rate
 
 /**
  * Select a secondary serial port on the board to use for communication with the host.
